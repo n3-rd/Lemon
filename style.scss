@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app > div > div:nth-child(2) > div > video{
+    object-fit: cover!important;
+}
+
+body, .font-normal{
+    font-family: 'Author', sans-serif;
+}
+.font-serif{
+    font-family: 'Melodrama', serif;
+}
+.font-satoshi{
+    font-family: 'Satoshi', sans-serif;
+}
+
+// svg cursor
